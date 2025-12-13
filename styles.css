@@ -1,0 +1,9 @@
+* {
+    margin: 0;
+    padding: 0; /*Margem ao contrario, se distancia de dentro para fora*/
+    box-sizing: border-box;
+}
+
+.starbucks {
+    width: 340px; /*Largura*/
+}
