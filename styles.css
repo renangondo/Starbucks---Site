@@ -4,6 +4,37 @@
     box-sizing: border-box;
 }
 
+body {
+    padding-top: 20px;
+    padding-right: 100px;
+    padding-left: 100px;
+}
+
+.conteudo {
+    width: 100%; /*Largura total*/
+    display: flex; /*Serve para organizar os elementos em linha ou coluna*/
+    align-items: center; /*Alinha os itens no centro verticalmente*/
+    justify-content: space-between; /*Espaço entre os itens*/
+}
+
+.caixa-texto {
+    width: 600px; /*Largura*/
+
+}
+
+h1 {
+    color: #333333; /*Cor do texto*/
+    font-size: 60px; /*Tamanho da fonte*/
+    font-weight: 700; /*Grossura da fonte*/
+}
+
+span {
+    color: #00704A; /*Cor do texto*/
+    font-size: 70px;
+    font-weight: 900; /*Grossura da fonte*/
+}   
+
+
 .starbucks {
     width: 340px; /*Largura*/
 }
