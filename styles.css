@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0; /*Margem ao contrario, se distancia de dentro para fora*/
     box-sizing: border-box;
+    font-family: "Poppins", sans-serif; /*Fonte do texto*/
 }
 
 body {
@@ -24,7 +25,7 @@ body {
 
 h1 {
     color: #333333; /*Cor do texto*/
-    font-size: 60px; /*Tamanho da fonte*/
+    font-size:65px; /*Tamanho da fonte*/
     font-weight: 700; /*Grossura da fonte*/
 }
 
@@ -32,7 +33,52 @@ span {
     color: #00704A; /*Cor do texto*/
     font-size: 70px;
     font-weight: 900; /*Grossura da fonte*/
-}   
+}
+
+p {
+    font-size: 16px;
+}
+
+button {
+    background: #017143; /*Cor do fundo*/
+    color: #FFFFFF; /*Cor do texto*/
+    border-radius: 40px; /*Borda arredondada*/
+    border: none; /*Sem borda*/
+    padding: 10px; /*Espaçamento interno*/
+    margin-top: 20px; /*Margem superior*/
+    cursor: pointer; /*Cursor de mãozinha*/
+    transition: 0.5s;
+}
+
+button:hover {
+    background: #014e2e; /*Cor do fundo ao passar o mouse*/
+
+}
+
+.caixa-imagem {
+    width: 600px; /*Largura*/
+    display: flex; /*Serve para organizar os elementos em linha ou coluna*/
+    justify-content: flex-end; /*Alinha os itens a direita*/
+    margin-top: 250px; /*Margem superior*/
+}
+
+.menu {
+    display: flex; /*Serve para organizar os elementos em linha ou coluna*/
+    justify-content: center; /*Alinha os itens no centro*/
+}
+
+.botao-menu {
+    width: 60px; /*Largura*/
+    cursor: pointer; /*Cursor de mãozinha*/
+    transition: 0.5s; /*Transição suave*/
+
+}
+
+.botao-menu:hover {
+    transform: translateY(-30px); /*Move o botão para cima ao passar o mouse*/
+    
+
+}
 
 
 .starbucks {
