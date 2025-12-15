@@ -76,11 +76,23 @@ button:hover {
 
 .botao-menu:hover {
     transform: translateY(-30px); /*Move o botão para cima ao passar o mouse*/
-    
+
 
 }
 
-
-.starbucks {
+.imagem-copo {
     width: 340px; /*Largura*/
+}
+
+.circulo {
+    background: #107143;
+    width: 100%;
+    height: 100%;
+    position: absolute; /*Posição absoluta*/
+    top: -100px;
+    left:0px;
+    clip-path: circle(600px at right 800px);
+    z-index: -1; /*Coloca o círculo atrás dos outros elementos*/
+
+
 }

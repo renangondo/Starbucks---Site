@@ -15,7 +15,9 @@
 
 <body>
 
-    <img src="/img/logo.png" alt="Logo da Starbucks">
+    <img src="img/logo.png" alt="Logo da Starbucks">
+
+    <div class="circulo"></div>
 
     <div class="conteudo">
 
@@ -24,18 +26,18 @@
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio commodi excepturi quo pariatur nihil sit
                 facilis impedit vero culpa? Vitae eveniet laudantium minima soluta recusandae totam dolor repellat
                 beatae ullam!</p>
-            <button>Clique no SININHO</button>
+            <button>Deixe seu Like</button>
         </div>
 
         <div class="caixa-imagem">
-            <img class="starbucks" src="img/img1.png" alt="Imagem do copo Starbucks">
+            <img class="imagem-copo" src="img/img1.png" alt="Imagem do copo Starbucks">
         </div>
     </div>
 
     <div class="menu">
-        <img class="botao-menu" src="img/thumb1.png" alt="Imagem do copinho Starbucks">
-        <img class="botao-menu" src="img/thumb2.png" alt="Imagem do copinho Starbucks 2">
-        <img class="botao-menu" src="img/thumb3.png" alt="Imagem do copinho Starbucks 3">
+        <img class="botao-menu" onclick="trocaImagem('img/img1.png'); trocaFundo('#017143')" src="img/thumb1.png" alt="Imagem do copinho Starbucks">
+        <img class="botao-menu" onclick="trocaImagem('img/img2.png'); trocaFundo('#eb7495')" src="img/thumb2.png" alt="Imagem do copinho Starbucks 2">
+        <img class="botao-menu" onclick="trocaImagem('img/img3.png'); trocaFundo('#d752b1')" src="img/thumb3.png" alt="Imagem do copinho Starbucks 3">
     </div>
 
 </body>
